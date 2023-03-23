@@ -3,7 +3,22 @@ function calculate(num1, num2, operator) {
   // return the final value that you get after operating on num1 and num2 based on what the operator is
   // if operator == "+" then return num1+num2 , else if operator == "-" then return num1-num2 and so on....
   //   write your code here -->
+  var result = null;
+  if(operator == '+'){
+    result = num1+num2;
+  }
+  else if(operator =='-'){
+    result = num1-num2;
+  }
+  else if(operator == '*'){
+    result = num1*num2;
+  }
+  else if(operator == '/'){
+    result == num1/num2;
+  }
+  return result;
 }
+
 
 // ignore the function below
 function performOperations() {
